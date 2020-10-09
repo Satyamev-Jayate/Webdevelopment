@@ -9,17 +9,26 @@
   padding: 10px 0px 0px 0px;
   margin: 10px;
 }
+hr{
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+.custom-tile>h2{
+  font-size: 25px;
+}
 .custom-tile>p{
   margin:0;
   text-align: left;
   padding-left: 7px;
   padding-bottom: 3px;
   font-family: "Arial";
-  font-size: medium;
-  font-weight: bold;
+  font-size: 15px;
 }
 .custom-right{
   position: relative;
   left: 100%;
   transform: translate(-20%);
+}
+.custom-bar{
+  background-color: gray;
 }
